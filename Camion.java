@@ -26,4 +26,13 @@ public class Camion extends VehiculoCarga {
 
     }
 
+    @Override
+    public void RealizarMantenimiento() {
+        super.RealizarMantenimiento();
+        System.out.println("Para el mantenimiento de este camion se necesita: ");
+        System.out.println("1. cambio de aceite. ");
+        System.out.println("2. cambio de llanta. ");
+        System.out.println("3. revision de freno. ");
+    }
+
 }
